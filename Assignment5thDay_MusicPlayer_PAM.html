@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Favoutite Music Palyers</title>
+        <link rel="stylesheet" href="./Assignment5thDay_MusicPlayer_PAM.css">
+    </head>
+    <body>
+        <div class="main">
+
+            <!-- Only in web responsive -->
+            
+            <h2 class="heading">Music Palyer</h2>
+            <h5 class="sub-head">Favourite Kannada Songs</h5>
+
+            <div class="player">
+
+                <!-- Player part -->
+
+                <div class="player-details">
+                    <p class="close" onclick="closePlayer()">
+                        &#10006;
+                    </p>
+                    <div class="main-thumbnail">
+                        <img class="main-thumbnail-img" src="images/Rajkumara.jpg">
+                    </div>
+                    <div>
+                        <h2 class="song-name">
+                            Bombe helutaithe
+                        </h2>
+                        <h3 class="song-artist">
+                            Vijay Prakash
+                        </h3>
+                    </div>
+                    <audio class="audio" controls loop>
+                        <source src="audio\Bombe-helutaithe.mp3">
+                    </audio>
+                </div>
+
+                <!-- Player list part -->
+
+                <div class="player-list">
+                </div>
+
+            </div>
+        </div>
+        <script src="./Assignment5thDay_MusicPlayer_PAM.js"></script>
+    </body>
+</html>
